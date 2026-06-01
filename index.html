@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creepypastas - Historias de Terror</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="title">
+                <span class="glitch" data-text="CREEPYPASTAS">CREEPYPASTAS</span>
+            </h1>
+            <p class="subtitle">Historias que no querrás leer antes de dormir</p>
+        </div>
+        <nav class="navbar">
+            <button class="nav-btn active" data-filter="all">Todos</button>
+            <button class="nav-btn" data-filter="classic">Clásicos</button>
+            <button class="nav-btn" data-filter="modern">Modernos</button>
+            <button class="nav-btn" data-filter="cortos">Cortos</button>
+            <input type="text" class="search-input" placeholder="Buscar creepypasta..." id="searchInput">
+        </nav>
+    </header>
+
+    <!-- Filtros -->
+    <section class="filters">
+        <button class="filter-btn active" data-sort="newest">Más Recientes</button>
+        <button class="filter-btn" data-sort="oldest">Más Antiguos</button>
+        <button class="filter-btn" data-sort="popular">Populares</button>
+    </section>
+
+    <!-- Grid de Creepypastas -->
+    <main class="container">
+        <div class="creepypastas-grid" id="grid">
+            <!-- Los creepypastas se cargarán aquí mediante JavaScript -->
+        </div>
+    </main>
+
+    <!-- Modal para ver detalle -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <div class="modal-meta">
+                    <span class="modal-author" id="modalAuthor"></span>
+                    <span class="modal-date" id="modalDate"></span>
+                    <span class="modal-rating" id="modalRating"></span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p id="modalDescription"></p>
+                <div class="modal-full-text" id="modalFullText"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-read-more" id="readMoreBtn">Leer Más</button>
+                <button class="btn-share" id="shareBtn">Compartir</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
