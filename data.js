@@ -170,6 +170,31 @@ const CREEPYPASTAS_DATA = [
         <p>Uno de ellos susurró una última frase antes de colapsar: "Por favor... déjame dormir..."</p>
         
         <p>El experimento nunca fue reportado. Los archivos fueron sellados. Pero los documentos existen, y la pregunta persiste: ¿Qué pasó realmente en esa habitación?</p>`
+    },
+    {
+        id: 9,
+        title: "Slenderman",
+        author: "Victor Surge",
+        category: "classic",
+        emoji: "🎭",
+        rating: 5,
+        date: "2009-06-10",
+        description: "El misterio comenzó con fotografías de un hombre alto y delgado. Ninguno que lo ha visto ha vivido para contarlo. Su nombre es Slenderman.",
+        fullText: `<p>Todo empezó con dos fotografías. Fotografías en blanco y negro de eventos escolares de los años 1983 y 1986. En el fondo de cada una, apenas visible, estaba la misma figura: un hombre extraordinariamente alto y delgado, vestido con un traje negro impecable.</p>
+        
+        <p>Nadie lo reconocía. Nadie sabía quién era. Pero en cada fotografía donde aparecía, los niños en la imagen desaparecían poco después. Sin explicación. Sin pista alguna.</p>
+        
+        <p>Las desapariciones se multiplicaron. Más fotografías fueron encontradas. En eventos deportivos, en paseos escolares, en fiestas de cumpleaños. Siempre la misma figura. Siempre en el fondo. Siempre observando.</p>
+        
+        <p>Luego llegaron los relatos. Testimonios de personas que lo habían visto. Describían la experiencia como hipnotizante. Decían que una vez que lo veías, no podías apartar la vista. Decían que él simplemente... te llevaba.</p>
+        
+        <p>La gente comenzó a reportar avistamientos. En los bosques. En las calles oscuras. Siempre al acecho. Siempre esperando. Y lo más perturbador: nunca atacaba. Solo observaba. Solo esperaba el momento adecuado.</p>
+        
+        <p>Los investigadores se hicieron preguntas. ¿Cómo es posible que una figura así no haya sido identificada? ¿Cómo puede rondar sin ser detenido? ¿Y por qué siempre desaparecen aquellos que lo ven?</p>
+        
+        <p>Ahora, cada vez que ves una fotografía antigua, debes mirar cuidadosamente el fondo. Porque si está ahí... si ese hombre delgado y alto está observando... significa que ya te ha elegido. Ya está cerca.</p>
+        
+        <p>Y no hay escape de Slenderman. Solo la inevitable oscuridad que viene después.</p>`
     }
 ];
 
